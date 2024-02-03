@@ -13,6 +13,11 @@ const Credit = () => {
         </a>
         {" on Freepik"}
       </div>
+      <div className={style.row}>
+        {"Portfolio template created by Eric Knocklein, see it "}
+        <a href="https://github.com/EricKnocklein/portfolio_template">here</a>
+        {" on GitHub"}
+      </div>
     </div>
   );
 };
