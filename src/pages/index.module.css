@@ -1,0 +1,110 @@
+.catHolder {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 4px;
+    align-items: center;
+    
+    justify-items: center;
+    padding: 30px 60px;
+
+    overflow: auto;
+}
+
+.topSection {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 30px 60px;
+    overflow: auto;
+}
+
+.descHolder {
+    padding-left: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content > p {
+    color: var(--dark-grey);
+    text-align: center;
+}
+.content > h1 {
+    text-align: center;
+}
+
+.imgCont {
+    /* display: inline-block; */
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.proHolder {
+    position: relative;
+    padding: 30px;
+    overflow: auto;
+    background-color: #111111;
+    background-image: url("../images/tile.png");
+}
+
+.proHolder::before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#111111, #11111100,  #11111100, #111111);
+}
+
+.proHolder::after {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(circle, #ff000000, #111111);
+}
+
+.linksTitle {
+    color: var(--almost-black);
+    width: 100%;
+    text-align: center;
+}
+
+.gridOrFlex {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    z-index: 3;
+}
+
+@media only screen and (max-width: 800px) {
+    .topSection {
+        display: grid;
+        grid-template-areas:
+            'im'
+            'd';
+        padding: 30px 60px;
+        overflow: auto;
+    }
+
+    .imgCont {
+        margin-left: auto;
+        margin-right: auto;
+        grid-area: im;
+    }
+
+    .descHolder {
+        grid-area: d;
+        padding: 0;
+    }
+
+    .topSection {
+        padding-left: 0.075%;
+        padding-right: 0.075%;
+    }
+}

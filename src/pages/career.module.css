@@ -1,0 +1,94 @@
+.catHolder {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+
+  justify-items: center;
+  padding: 30px 60px;
+
+  overflow: auto;
+}
+
+.topSection {
+  grid-template-columns: auto 1fr;
+  padding: 30px 60px;
+  overflow: auto;
+}
+
+.descHolder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.descHolder > p {
+  margin-top: 0px;
+  max-width: 700px;
+  color: var(--dark-grey);
+  text-align: center;
+}
+
+.proHolder {
+  position: relative;
+  padding: 30px;
+  overflow: auto;
+  background-color: #111111;
+  background-image: url("../images/tile.png");
+}
+
+.proHolder::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#111111, #11111100, #11111100, #111111);
+}
+
+.proHolder::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #ff000000, #111111);
+}
+
+.linksTitle {
+  color: var(--almost-black);
+  width: 100%;
+  text-align: center;
+}
+
+.gridOrFlex {
+  position: relative;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 3;
+}
+
+.innerCard {
+  padding: 10px 20px;
+}
+
+.cardTitle {
+  margin-top: 0px;
+}
+
+.bHolder {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  width: 200px;
+  border-radius: 10000px;
+  border: var(--dark-grey) solid 4px;
+}

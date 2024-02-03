@@ -1,0 +1,56 @@
+ul.nav {
+  position: relative;
+  z-index: 100;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--grey);
+  display: flex;
+  justify-content: space-around;
+  overflow: visible;
+}
+
+
+.logoDiv {
+  margin: auto 0;
+  height: 50px;
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+}
+
+.logoDiv div img {
+  width: 50px;
+  height: 50px;
+  transition: height 1s, width 1s;
+}
+
+.growOnHover {
+  width: 50px;
+  height: 50px;
+  transition: height 1s, width 1s;
+}
+
+.growOnHover:hover {
+  width: 100px;
+  height: 100px;
+}
+
+.logoDiv div {
+  cursor: pointer;
+  max-height: 100px;
+  border-radius: 50%;
+  background-color: #e0e0e0;
+}
+
+@media only screen and (max-width: 300px) {
+  ul.nav {
+    /* display: block; */
+    padding: 0.1px 0.1px;
+    overflow: auto;
+  }
+  .logoDiv {
+    display: none;
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "images": [
+    {
+      "src": "/img/profile/profile1.jpg",
+      "alt": "picture of me in front of a tree",
+      "caption": ""
+    },
+    {
+      "src": "/img/profile/profile2.jpg",
+      "alt": "picture of me on a mountain",
+      "caption": ""
+    },
+    {
+      "src": "/img/profile/profile3.jpg",
+      "alt": "my girlfriend and me in Zurich",
+      "caption": ""
+    },
+    {
+      "src": "/img/profile/profile4.jpg",
+      "alt": "picture of me on a mountain",
+      "caption": ""
+    },
+    {
+      "src": "/img/profile/profile5.jpg",
+      "alt": "my girlfriend and me in Nashville",
+      "caption": ""
+    }
+  ],
+  "description": "I’m **Eric Knocklein**, a Software Engineer and recent graduate of the University of Virginia. In my career, studies, and hobbies, I have pursued a creative passion which has motivated my life’s direction. I invite you to follow the links below to learn more about my creative pursuits."
+}

@@ -1,0 +1,48 @@
+{
+  "overview": "My journey with software development started in an introductory course at UVA. Soon after starting the course, it was clear to me that programming aligned perfectly with both my analytical and creative sides. From there, my passion for programming and what it allows me to do has only grown.\n\nAt UVA, I gained experience in many different technologies from the most fundamental concepts of computers and the physics that animated them to high level design patterns and software architecture. I graduated from UVA with a Bachelor of Science degree in Computer Science. Even though I completed this four year degree in 3 years (something only done by 50 or so students that year in the entire Engineering School that year), I still managed to graduate with Highest Honors. My final cumulative GPA was 3.98.\n\nWhile studying, I also completed a software engineering internship at SitScape. Here I gained valuable hands-on experience to supplement and complement my studies. My focus was rapid development, and I implemented a number of major user experience and performance improvements. Applying what I had learned in my cybersecurity classes, I proved to be a core part of the cybersecurity team. After graduating, I took on a 2 month contract with Sitscape as Junior Software Engineer.\n\nBelow is my resume, and below that is more information about my experience. For even more information, I invite you to view my [LinkedIn](https://www.linkedin.com/in/eric-knocklein-592a331b5/) and [GitHub](https://github.com/EricKnocklein) profiles.",
+  "resume": "/other/portfolio.pdf",
+  "sections": {
+    "Experience": {
+      "sitscape2023": {
+        "title": "Junior Software Engineer at SitScape",
+        "dates": "August 2023 - September 2023",
+        "description": "Between two periods of travel, I worked for SitScape full time as a Junior Software Engineer specializing in rapid improvement and rapid bug fixes. This was a two month contract. My flexible schedule and reliable efficiency made me an indispensable part of the team.\n- Diagnosed and corrected a months-old faulty merge that went overlooked\n- Researched faults in a Continuous Integration pipeline and pinpointed the offending lines of code\n- Continued the security research started in my internship\n\nWhile I was already quite familiar and experienced with the tech stack of the company, having worked there for a year as an intern, these two months allowed me to gain more expertise in the specific technologies used. It was more focused on Back-End Web Development than my previous experience at the company, so it allowed me to practice my skills in PHP along with my more practiced skills of JavaScript.\n\nWorking on diagnosing issues in the GitLab CI/CD pipeline was a brand new experience, so I learned a lot in that challenge. In a similar vein, I was able to do some sleuthing in the git logs to discover a faulty merge and rectify it. This was an interesting challenge and a nice change of pace from my regular work.\n\nIn addition to these I continued the cybersecurity research I started in my internship.",
+        "images":[
+          {
+            "src":"https://www.sitscape.com/wp-content/uploads/2020/04/logo.png",
+            "alt": "SitScape logo"
+          }
+        ]
+      },
+      "summer2023": {
+        "title": "Travel",
+        "dates": "May 2023 - July 2023",
+        "description": "As a reward to myself for graduating university, I traveled to South Africa and Northwestern Europe. In the 13 different countries I visited, I learned many cultural and personal lessons. During this time, I worked on two personal projects. The first is a [series of sketches of the places I visited](/projects/Travel%20Drawings), and the second is my [cybersecurity](/projects/cybersecurity) hobby."
+      },
+      "internship": {
+        "title": "Software Engineer Intern at SitScape",
+        "dates": "May 2022 - April 2023",
+        "description": "During my last year of college, I worked as a software engineering intern at SitScape. While I was just intended to use the SitScape software and report any bugs I found, I applied myself and got a fast-track to working directly on the codebase. To do this, I had to quickly learn JavaScript, especially jQuery, and php, which I did not know prior to the internship. I successfully applied them both in the course of the internship.\n- Progressed past my original goal for the entire internship in two weeks\n- Implemented new features for both the user interface as well as backend processes in a large codebase\n- Conducted market and product research to aid in the development of the company\n- Learned JavaScript and PHP in a fast paced environment while still completing my assigned tasks\n- Improved the usability and speed of the application by over 200% in two distinct areas\n- Took initiative to become an important member of the cyber security team. In this position, I reviewed code for potential threats and vulnerabilities and performed penetration tests on the software.\n\nWorking this internship was a great opportunity, and I am grateful for all it taught me both about the technology we used but also about how one works as a team in a fast paced agile environment. On the technology end, I learned JavaScript and PHP along with HTML and CSS. I practiced my skills in debugging, version control, and UI design. I also had the opportunity to learn React, which came in handy when creating this portfolio website.\n\nA large portion of my internship’s last quarter was cybersecurity. I performed penetration tests into the software and detailed my findings in bug reports. These reports earned me a core place in the cybersecurity team. ",
+        "images": [
+          {
+            "src": "https://www.sitscape.com/wp-content/uploads/2020/04/logo.png",
+            "alt": "SitScape logo"
+          }
+        ]
+      }
+    },
+    "Education": {
+      "undergrad": {
+        "title": "University of Virginia: B.Sc. in Computer Science",
+        "dates": "August 2023 - September 2023",
+        "description": "I graduated with Highest Distinction from the University of Virginia School of Engineering within three years with a major in Computer Science and a minor in Applied Mathematics. As far as I could find, I was one of only two people who graduated with **highest honors** in three years in the entire department. My final GPA was **3.98**.\n\nI kept myself busy with an internship my final two semesters and by participating in various sports like racquetball and volleyball. On top of this, I worked on various personal projects. The most significant of these being my [worldbuilding](/projects/worldbuilding), but the most relevant of these being my [graph analysis project](/projects/graph%20analysis), my [family tree project](/projects/mardtree), and my map viewer project.\n\nAs is the goal of higher education, I learned a great deal of theoretical knowledge and hands-on experience with a myriad of concepts and technologies. \n- I built simple computers using digital logic design. \n- I built and simulated an entire single-cycle MIPS processor in **C++**. \n- I predicted housing prices using **scikit-earn**, **Keras**, and **TensorFlow**. \n- I wrote a patent and analyzed the disparity in resource allocation between the global north and south. \n- I studied and implemented **relational databases**. \n- I exploited buffer overflows, format strings, and cavity viruses, and I built a lexical scanner to recognize malware.\n- I  exploited **XSS**, **CSRF**, **LFI**, **SSRF**, and **SQLi** vulnerabilities.\n- I created a video game in **Python**.\n - I created a recipe website with **Django**. \n- I calculated the complexity of algorithms and formulated brand new algorithms from greedy to dynamic programming. \n- I formulated, rejected, and failed to reject statistical hypotheses and wrote **R** code to verify my answers. \n- I tested software with automated testing tools and analytical methods. \n- I implemented round robin and lottery schedulers for an operating system. \n- I applied Maxwell's equations and took surface integrals. \n-I wrote, reduced, and multiplied matrices.\n- I proved the basic conclusions of set theory.\n- And I created a mail server and studied the concepts of computer networks.\n\nIn my final two semesters, I put together a thesis [portfolio](https://libraetd.lib.virginia.edu/public_view/kp78gh718) covering my time working for SitScape and original research into the efficacy of Open Source Development.",
+        "images": [
+          {
+            "src": "https://media.cnn.com/api/v1/images/stellar/prod/200617131110-02-uva-reworked-logo-0616.jpg?q=w_1600,h_900,x_0,y_0,c_fill",
+            "alt": "University of Virginia logo"
+          }
+        ]
+      }
+    }
+  }
+}

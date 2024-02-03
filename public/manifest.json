@@ -1,0 +1,15 @@
+{
+  "short_name": "Eric's Portfolio",
+  "name": "Eric Knocklein's Personal Portfolio",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "sizes": "480x480 48x48 32x32 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "browser",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

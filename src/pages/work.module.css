@@ -1,0 +1,90 @@
+.catHolder {
+  display: grid;
+  grid-auto-flow: column;
+  gap: 4px;
+  align-items: center;
+
+  justify-items: center;
+  padding: 30px 60px;
+
+  overflow: auto;
+}
+
+.descHolder {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+  padding: 30px 60px;
+
+  overflow: auto;
+}
+
+.descHolder > p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  max-width: 700px;
+  min-width: 200px;
+  text-align: center;
+  color: var(--dark-grey);
+  /* font-size: 17px; */
+}
+
+.proHolder {
+  position: relative;
+  display: grid;
+  justify-content: center;
+  padding: 30px;
+  overflow: auto;
+  background-color: #111111;
+  background-image: url("../images/tile.png");
+}
+
+.gridOrFlex {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.proHolder::before {
+  content: "";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#111111, #11111100, #11111100, #111111);
+}
+
+.proHolder::after {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #ff000000, #111111);
+}
+
+.spacer {
+  /* display: flex;
+    align-items: center; /* vertical centering if flex-direction: row */
+  /*justify-content: center; /* horizontal centering if flex-direction: row */
+  margin: 10px 10px;
+  z-index: 2;
+}
+
+@media only screen and (max-width: 1300px) {
+  .gridOrFlex {
+    flex-direction: column;
+    display: flex;
+    align-items: center; /* vertical centering if flex-direction: row */
+    justify-content: center; /* horizontal centering if flex-direction: row */
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+  .proHolder {
+    justify-content: flex-start;
+  }
+}

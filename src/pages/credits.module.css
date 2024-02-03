@@ -1,0 +1,17 @@
+.im {
+    width: 100px;
+    margin: 10px;
+}
+
+.holder {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    white-space: pre-wrap;
+}

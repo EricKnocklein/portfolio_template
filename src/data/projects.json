@@ -1,0 +1,352 @@
+{
+  "categories": [
+    {
+      "name": "Computer Science",
+      "image": "/img/cs.png",
+      "desc": ""
+    },
+    {
+      "name": "Visual Arts",
+      "image": "/img/art.jpg",
+      "desc": ""
+    },
+    {
+      "name": "Writing",
+      "image": "/img/In the Light of Golden Eyes.png",
+      "desc": ""
+    }
+  ],
+  "projects": {
+    "portfolio": {
+      "title": "Portfolio Website",
+      "categories": ["Computer Science", "Visual Arts"],
+      "dates": "December 2023",
+      "link": "",
+      "desc": "I built this portfolio website you are currently viewing with React. All styling is custom built because I wanted practice with front-end design. My work has mostly been back-end, so doing some front-end development was a great change of pace. This website is more than just a website, though. It is built to be modular so that others can use the tool to build their own websites. In order to create this website, I had to create custom art and animations.\n\nAll the data that builds the website is stored in a few JSON files that are interpreted and displayed as you see them now. The components that I created are designed to be reusable, and I hope others also put them to good work. React is great in this way, and it allowed me to build this entire site in just over a week with limited prior React experience.\n\nI am using a sort of MVC architecture for this site. The index page handles all the requests, so it is the controller. Each page is set up as a sort of template that is rendered based on the URL, so they are analogous to the views. The JSON I just described would be the models, then. This architecture allowed me to easily reuse common elements in all the views such as the navigation bar, which greatly accelerated the development of the project.\n\nThis project is the first time that I styled an entire site by hand without any tools like bootstrap. While I thought this was going to be a massive hassle, I was surprised by how fruitful it was. I learned a lot even while certain things gave me headaches. At least now I have overcome those challenges and now know how to deal with them.\n\nI hope to keep this site up to date and add more spice to it. I have many ideas for animations and interesting css tricks that will hopefully add polish and let this portfolio stick out. Even now, though, I am very happy with what I have created.",
+      "images": [
+        {
+          "src": "/favicon.ico",
+          "alt": "test",
+          "caption": ""
+        }
+      ]
+    },
+    "cybersecurity": {
+      "title": "Cyber-security",
+      "categories": ["Computer Science"],
+      "dates": "Ongoing",
+      "link": "",
+      "desc": "I recreationally participate in CTF competitions and Hack the Box challenges. With all of my personal projects, I often find it difficult to dedicate a substantial amount of hours to these pursuits. CTFs are particularly challenging because of their fixed schedule, but I always have a great time competing, and I always learn a great deal when I do.\n\nI cannot conclude this description without mentioning the catalyst for this hobby. While working as a Software Engineering Intern at SitScape, I did some research into their cybersecurity. This is quite an unusual way for people to enter this hobby, but I got some first hand experience in working as a cybersecurity professional, which I hope somewhat balances my inexperience.\n\nYou can find my HTB account [here](https://app.hackthebox.com/profile/1575217).",
+      "images": [
+        {
+          "src": "/img/cyber security 6.png",
+          "alt": "test",
+          "caption": ""
+        }
+      ]
+    },
+    "NaNoWriMo 2023": {
+      "title": "In the Light of Golden Eyes",
+      "categories": ["Writing"],
+      "dates": "November 2023",
+      "link": "",
+      "desc": "I wrote a book for NaNoWriMo 2023. In 17 days, I wrote over 50,000 words for a short novel that is essentially a collection of short stories that convey an underlying overarching plot through repeated symbols and hints.\n\nSince I do not want to give too much away, I’m not going to give much information about the book here. To be honest, I don’t really even know how to describe it if I wanted or had to. What I can say is that it is set in the world I have been building for some time (read more [here](/projects/worldbuilding)), and that it is probably not a good start to get into the rest of my writing (if or when I decide to publish any).",
+      "images": [
+        {
+          "src": "/img/In the Light of Golden Eyes.png",
+          "alt": "book cover",
+          "caption": "I designed the cover of the book. It and the title of the book are taken from the most pivotal scene of the book."
+        }
+      ]
+    },
+    "Travel Drawings": {
+      "title": "Travel Drawings",
+      "categories": ["Visual Arts"],
+      "dates": "Summer 2023",
+      "link": "",
+      "desc": "While traveling in the summer of 2023, I sketched whenever I could find the time. If the weather was nice and if there was a nice grassy place to sit, I pulled out my sketchbook and sketched what was there. The original plan was to do one sketch per day, but, as you can see by the lack of drawings and the dates in the captions, this did not happen. While there are some drawings I have not included, I definitely did not find time to draw every day.\n\nDrawing these things forced me to really engage with the scenes before me in a way that I would not have had the focus for otherwise. I find now, only a few months later, that I remember the places I drew much more vividly than those that I left out.\n\nOne discovery I would never have made if I did not take the time to draw concerns the rune stone in Västerås, which you can navigate to on the left side of the screen or the top of the screen if you are on mobile). The main carving on the stone has a border of runes. I drew these runes as accurately as I could, but I found that I was running out of space as so often happens when writing to fill a confined space. When I looked up at the runestone, though, I saw that the person who originally carved the runes had made the exact same mistake. I don’t know if I have ever felt as connected to someone in the distant past as I did during that moment of realization.",
+      "images": [
+        {
+          "src": "/img/travel drawings/amsterdam1.jpg",
+          "alt": "a drawing of the Rijksmuseum in Amsterdam",
+          "caption": "June 25: The tower of the Rijksmuseum in Amsterdam."
+        },
+        {
+          "src": "/img/travel drawings/amsterdam2.jpg",
+          "alt": "a drawing of the Zuiderkerk in Amsterdam",
+          "caption": "June 26: The belltower of the Zuiderkerk in Amsterdam."
+        },
+        {
+          "src": "/img/travel drawings/copenhagen1.jpg",
+          "alt": "a drawing of the Frederiks Kirke in Copenhagen",
+          "caption": "June 29: The dome of the Frederiks Kirke in Copenhagen."
+        },
+        {
+          "src": "/img/travel drawings/copenhagen2.jpg",
+          "alt": "a drawing of the Vor Frelsers Kirke in Copenhagen",
+          "caption": "June 30: The spiral steeple of the Vor Frelsers Kirke in Copenhagen."
+        },
+        {
+          "src": "/img/travel drawings/oslo1.jpg",
+          "alt": "a drawing of the ruins of the Margaretakirken in Oslo",
+          "caption": "July 4: The ruins of the Margaretakirken in northern Oslo."
+        },
+        {
+          "src": "/img/travel drawings/oslo2.jpg",
+          "alt": "a drawing of the Paulus Kirke in Oslo",
+          "caption": "July 5: The Paulus Kirke in Oslo."
+        },
+        {
+          "src": "/img/travel drawings/sweden1.jpg",
+          "alt": "a drawing of cottages near the Karlslunds Mannor in Örebro",
+          "caption": "July 7: Cottages on the grounds of the Karlslunds Mannor in Örebro."
+        },
+        {
+          "src": "/img/travel drawings/sweden2.jpg",
+          "alt": "a drawing of the runestone near Västerås",
+          "caption": "July 8: The runestone at the Anunshog Burial Site in Västerås."
+        },
+        {
+          "src": "/img/travel drawings/tallinn1.jpg",
+          "alt": "a drawing of Viru Gate in Tallinn",
+          "caption": "July 19: Viru Gate in Tallinn."
+        },
+        {
+          "src": "/img/travel drawings/tallinn2.jpg",
+          "alt": "a drawing of the clifs of Tallinn.",
+          "caption": "July 20: The view from below the Patkuli Viewing Platform in Tallinn."
+        },
+        {
+          "src": "/img/travel drawings/riga1.jpg",
+          "alt": "a drawing of the House of the Blackheads in Riga.",
+          "caption": "July 22: The gate to the House of the Blackheads in Riga."
+        },
+        {
+          "src": "/img/travel drawings/freiburg1.jpg",
+          "alt": "a drawing of Zahringer Burg near Freiburg.",
+          "caption": "October 11: The ruins of the Zahringer Burg near Freiburg im Breisgau."
+        },
+        {
+          "src": "/img/travel drawings/malta1.jpg",
+          "alt": "a drawing of a monument in Valletta",
+          "caption": "December 29: The Monument to Sir Alexander Ball in Valletta."
+        }
+      ]
+    },
+    "evyng": {
+      "title": "Custom Map Viewer",
+      "categories": ["Computer Science"],
+      "dates": "Summer 2022",
+      "link": "https://evyng.netlify.app/",
+      "desc": "A tool to allow the layering of different maps and the blending between them. I built this tool to allow users to overlay images of maps over one another and smoothly transition between the maps on zoom similar to what happens when you zoom on Google Maps. The website is built with pure JavaScript and styled with Bootstrap.\n\nI was inspired to create this tool when I was working on my family tree website. Because of performance issues in that site, I had to dynamically change the quality of the images displayed on the tree based on the zoom level of the user. This reminded me of how Google Maps becomes more detailed as the user zooms in. I figured it could not be that difficult to do something similar myself.\n\nFor my [worldbuilding](/projects/worldbuilding), I have drawn many maps with various levels of detail, and laying these maps out and aligning their features has always been a pain. Creating this tool has allowed me to lay the maps out on a single digital canvas and see the bigger picture they produced.\n\nOriginally, once I had finished the code to display the maps, I simply edited a JSON file to position and scale the maps, but I have since added an edit mode where users can position and scale maps and add new maps. Each map can also include multiple images or versions through which users can cycle.\n\nI’m not satisfied with the look and feel of the website, so I might leverage what I learned in making this [portfolio website](/projects/portfolio) to spruce up the map website.",
+      "images": [
+        {
+          "src": "https://drive.google.com/uc?export=view&id=1Mj4iuFrbiJDMvtPjub5lxlNMSlqLas2s",
+          "alt": "screenshot of map viewer website",
+          "caption": "Screenshot of the home page of the map viewer website."
+        },
+        {
+          "src": "https://drive.google.com/uc?export=view&id=164T77YxwFbznPUEOQH10TmpqBPlV0Bvp",
+          "alt": "screenshot of map viewer website when editing",
+          "caption": "Screenshot of the edit mode of the map viewer website."
+        }
+      ]
+    },
+    "graph analysis": {
+      "title": "Wiki Graph Analysis",
+      "categories": ["Computer Science", "Visual Arts", "Writing"],
+      "dates": "Summer 2022",
+      "link": "https://www.youtube.com/watch?v=yHq_WdITkms&list=PL_XXw1KF-X0WEgjd01PGRv-Nr6cJPhz3_&ab_channel=EricKnocklein",
+      "desc": "As I was worldbuilding, I wanted a way to visualize the great mess of articles in the wiki. My readers also requested a way to read through the articles in a linear way. I leveraged some algorithms I learned in university and my coding knowledge to turn my wiki into a graph and sort it. Since I thought that this research was interesting, I created a YouTube series to display what I learned.\n\nThe [first video](https://youtu.be/yHq_WdITkms?si=NaE34r2GXBeYLX_Q) details how to turn a wiki into a graph using **Python**, **NetworkX**, and **pyvis**. It is a simple script that reads articles in a [WorldAnvil](https://www.worldanvil.com/) export and creates nodes for each article and links to other nodes for each hyperlink in those articles.\n\nThe [second video](https://youtu.be/nav-5TD5G9M?si=ESulZb3AIGuRkJ62) is a little more technical because it describes ways to sort these articles. It describes a topological sort algorithm and explains why it cannot be applied in this case. Then it describes what modification can be made to the algorithm to allow it to work when the graph is not acyclic. Then it uses that algorithm to create a reading order that minimizes the number of links readers encounter to articles they have not yet read.\n\nThe videos are animated with vector graphics that I created in Synfig. I’m happy with the way they look, but creating them is a chore and the reason why there are only two videos even though I have written much more code than is displayed in the videos.\n\nI hope to eventually make this project into a website as well where users can upload and share their scripts to sort their worlds, but this is just an idea for now. Before that, though, I have a few more ideas for videos in the series that take centrality grouping measures into account.",
+      "images": [
+        {
+          "src": "https://drive.google.com/uc?export=view&id=1Oo_Bjwu0kB3GaH6AOVgx2muqO4yQf07m",
+          "alt": "thumbnail for video 1",
+          "caption": "The thumbnail image for the first video in the series."
+        },
+        {
+          "src": "https://drive.google.com/uc?export=view&id=16eCUMMBHbjoTMgw74cOHnmC4Vt-Oi0D0",
+          "alt": "thumbnail for video 2",
+          "caption": "The thumbnail image for the second video in the series."
+        }
+      ]
+    },
+    "mardtree": {
+      "title": "Family Tree Viewer",
+      "categories": ["Computer Science", "Writing", "Visual Arts"],
+      "dates": "01/22 and 01/23",
+      "link": "https://mardtree.netlify.app/index2.html",
+      "desc": "An animated family tree website built with JavaScript and styled with Bootstrap. It contains over 100 characters from my [worldbuilding](/projects/worldbuilding). The frames that contain each individual animate on double click using custom Lottie animations created in Synfig. Zooming in and out changes the quality of the frames from low quality png to high quality png to an svg.\n\nCurrently, this website has no user input, but maybe I will do something similar to what I did in my map viewing website to allow users to edit the tree. I have a lot more work to do on this site, but it serves its purpose for now: to allow me to easily see the genealogy I created in an interesting way.",
+      "images": [
+        {
+          "src": "https://drive.google.com/uc?export=view&id=1IDmZlYakE5rYqKP-rLexnMSyRNeIDOkL",
+          "alt": "screenshot of family tree viewer website",
+          "caption": "Screenshot of the home page of the family tree viewer website."
+        }
+      ]
+    },
+    "eins": {
+      "title": "Card Game Development",
+      "categories": ["Visual Arts", "Computer Science"],
+      "dates": "Summer 2021",
+      "link": "",
+      "desc": "I designed and prototyped a number and color matching card game. The project started because my friends and I played a version of the card game Mao but found that the rules the players create (as each player could create a rule when they won) were severely limited by the cards at hand. What started out as just a commemorative set of cards turned into a mission to improve the number and type of rules players could create. As a result, I designed the deck with many features both on the front and back of the cards that would serve as hooks for these rules. To randomize the cards, I wrote a short program in Java to take layers I had created, randomize them, and bake them into a final card image.",
+      "images": [
+        {
+          "src": "/img/eins/box.jpg",
+          "alt": "the box of the card game",
+          "caption": "The box of the EINS! card game with one of the cards standing next to it."
+        },
+        {
+          "src": "/img/eins/cards.jpg",
+          "alt": "the cards of the card game",
+          "caption": "Some of the 162 cards in the pack. The top cards are what I call \"token cards\" because the symbols on them are unique. The bottom cards are fanned out to show their designs on the front and back."
+        }
+      ]
+    },
+    "blackwork": {
+      "title": "Blackwork",
+      "categories": ["Visual Arts", "Writing"],
+      "dates": "Ongoing",
+      "link": "",
+      "desc": "A series of black and white and red drawings of people, concepts, and events in my writing. These drawings were actually some of the first things I created for my [worldbuilding](/projects/worldbuilding), and the settings of the world sprung up to explain the drawings. Since then, the writing has taken on a life of its own, and the drawings only serve to augment it.\n\nI will not explain any of these drawings here, but there are some that are referenced or used as inspiration for *In the Light of Golden Eyes* (see this [project](/projects/NaNoWriMo%202023)) if that is available to the public. I make heavy use of recurring symbols, so there may be some information to be gleaned from those for those who are curious.",
+      "images": [
+        {
+          "src": "/img/Blackwork/The Procession.jpg",
+          "alt": "The Procession",
+          "caption": "The Procession"
+        },
+        {
+          "src": "/img/Blackwork/The Golden Fruit.png",
+          "alt": "The Golden Fruit",
+          "caption": "The Golden Fruit"
+        },
+        {
+          "src": "/img/Blackwork/The Western Wall.jpg",
+          "alt": "The Wailing Wall",
+          "caption": "The Wailing Wall"
+        },
+        {
+          "src": "/img/Blackwork/Beyond Rest.jpg",
+          "alt": "Beyond Rest",
+          "caption": "Beyond Rest"
+        },
+        {
+          "src": "/img/Blackwork/The Triarchy.jpg",
+          "alt": "The Triarchy",
+          "caption": "The Triarchy"
+        },
+        {
+          "src": "/img/Blackwork/The Font.jpg",
+          "alt": "The Font",
+          "caption": "The Font"
+        },
+        {
+          "src": "/img/Blackwork/A Vassal.jpg",
+          "alt": "A Vassal",
+          "caption": "A Vassal"
+        },
+        {
+          "src": "/img/Blackwork/A Final Rest.jpg",
+          "alt": "A Final Rest",
+          "caption": "A Final Rest"
+        },
+        {
+          "src": "/img/Blackwork/The Loss of Greatness.jpg",
+          "alt": "The Loss of Greatness",
+          "caption": "The Loss of Greatness"
+        },
+        {
+          "src": "/img/Blackwork/The Dur.jpg",
+          "alt": "The Dur",
+          "caption": "The Dur"
+        },
+        {
+          "src": "/img/Blackwork/The Pyre.jpg",
+          "alt": "The Pyre",
+          "caption": "The Pyre"
+        },
+        {
+          "src": "/img/Blackwork/Trees and Routes.jpg",
+          "alt": "Trees and Routes",
+          "caption": "Trees and Routes"
+        },
+        {
+          "src": "/img/Blackwork/Beacons.jpg",
+          "alt": "Beacons",
+          "caption": "Beacons"
+        },
+        {
+          "src": "/img/Blackwork/The Pathfinder.jpg",
+          "alt": "The Pathfinder",
+          "caption": "The Pathfinder"
+        },
+        {
+          "src": "/img/Blackwork/The Dreamer.jpg",
+          "alt": "The Dreamer",
+          "caption": "The Dreamer"
+        },
+        {
+          "src": "/img/Blackwork/A Possible Champion.png",
+          "alt": "A Possible Champion",
+          "caption": "A Possible Champion"
+        },
+        {
+          "src": "/img/Blackwork/Sakaton Tale.png",
+          "alt": "Sakaton Tale",
+          "caption": "Sakaton Tale"
+        },
+        {
+          "src": "/img/Blackwork/The Kattical.png",
+          "alt": "The Kattical",
+          "caption": "The Kattical"
+        },
+        {
+          "src": "/img/Blackwork/The Ranstan Bridge.png",
+          "alt": "The Ranstan Bridge",
+          "caption": "The Ranstan Bridge"
+        },
+        {
+          "src": "/img/Blackwork/The Hill Part 1.png",
+          "alt": "The Hill in Ligh",
+          "caption": "The Hill in Light"
+        },
+        {
+          "src": "/img/Blackwork/The Hill Part 2.png",
+          "alt": "The Hill in Darkness",
+          "caption": "The Hill in Darkness"
+        }
+      ]
+    },
+    "worldbuilding": {
+      "title": "World-building",
+      "categories": ["Writing", "Visual Arts"],
+      "dates": "Ongoing",
+      "link": "",
+      "desc": "Since 2020, I've been creating a fictional world as a writing project. I have worked on it since then, and the total writing has surpassed 500,000 words. Many of the other projects in this portfolio (both in computer science and visual art) are inspired by this hobby. Included in this project are a number of maps that I drew to display the world. These maps be seen in greater context on the [map viewing website](/projects/evyng) I created.\n\nThis project is personal, and I have always been apprehensive in sharing details about it. As a result, this is a very short description. What I will share, though, are some statistics about the writing.\n\nSince the start of 2020, I have written 580,000 words, which averages to around 400 words written per day. Of course, this writing is not good enough for publication, but I still think it is an impressive feat to have accomplished while being a full time student and then a full time software engineer. The writing is divided into 740 articles, which is why I had to create an [algorithm](/projects/graph%20analysis) to sort through them. I have drawn 26 [blackwork drawings](/projects/blackwork) to give more character to the world plus countless sketches and diagrams. At least 56 hand drawn maps detail the lands, the people, and the history of this world.\n\n As strange as it may seem, I think that my career as a software engineer and this hobby are motivated by the same thing. There is a simple parallel between working on worldbuilding and working on a codebase. If I’m thinking of adding a setting or a plot or a character into my world, I have to first analyze how this change will reverberate through everything else I have already done. I have to ensure that it does not create plot holes, scope creep, or power creep. This is very similar to adding a new feature into a code base where you have to ensure that it does not break what is already there or introduce any new bugs. Often such bugs are located far from the new feature, and figuring out how they’re connected is challenging. I think that writing a large interconnected world allows me to practice these skills even without actually programming.",
+      "images": [
+        {
+          "src": "https://drive.google.com/uc?export=view&id=1Uqqk8Y_jgYnxHaWwRhDM49uviD6xUv8P",
+          "alt": "map of a region described in my worldbuilding",
+          "caption": "The map of one of the most detailed regions in my world."
+        },
+        {
+          "src": "/img/maps/Pretty Iandriss Map JPEG NP.jpg",
+          "alt": "map of a region described in my worldbuilding",
+          "caption": "A map of a region in my world. This region can also be seen in the previous map."
+        },
+        {
+          "src": "/img/maps/Trees and Routes Final.png",
+          "alt": "A stylized map",
+          "caption": "A stylized map. I really liked the design of this map, which is why I took the logo of this website from it."
+        },
+        {
+          "src": "/img/maps/GaralNebula.png",
+          "alt": "A diagram",
+          "caption": "The central diagram that decribes much of the cosmology of the world."
+        }
+      ]
+    }
+  },
+  "description": "My personal projects fall in three major categories. Select one or more of the categories below to filter the list of projects. For information about career and education experience, see the about page. I strongly believe that my work on these projects exemplifies my passion and dedication, so, even if you are more interested in my work experience, I invite you to peruse these projects."
+}
