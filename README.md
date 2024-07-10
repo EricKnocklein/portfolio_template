@@ -1,6 +1,6 @@
 # Portfolio Builder
 
-This is a simple portfolio builder built from reusable components. It can be customized on a basic level by changing the files in the data folder or at a higher level by modifying the code directly. This file explains the components and how to set up the site. I used Netlify to host it, so what is already here is tailored to that. It could be that other hosting services require other files or configurations.
+This is a simple portfolio builder built from reusable components. It can be customized on a basic level by changing the files in the data folder or at a higher level by modifying the code directly. This file explains the components and how to set up the site. I used Netlify to host it, so what is already here is tailored to that. It could be that other hosting services require other files or configurations. To see this portfolio viewer in action, see [this site](https://ericknock.netlify.app/).
 
 ## Data Files
 
